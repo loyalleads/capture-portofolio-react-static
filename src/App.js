@@ -11,6 +11,7 @@ class App extends Component {
       <>
         <h1>hi there</h1>
         <h2>you are the best</h2>
+        <p>hi there</p>
       </>
     )
   }
