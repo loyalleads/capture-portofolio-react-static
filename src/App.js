@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-
 import './app.css'
-import logo from './logo.png'
+
+// Import Pages
+import AboutUs from './pages/AboutUs.js'
+
 
 class App extends Component {
   render() {
@@ -10,8 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>hi there</h1>
-        <h2>you are the best</h2>
-        <p>hi there</p>
+        <AboutUs />
+        
       </div>
     )
   }
