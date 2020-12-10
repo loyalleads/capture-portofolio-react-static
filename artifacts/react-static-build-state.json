@@ -1,0 +1,54 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app",
+    "SRC": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/src",
+    "DIST": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/dist",
+    "ASSETS": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/dist",
+    "PLUGINS": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/plugins",
+    "TEMP": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/tmp",
+    "ARTIFACTS": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/artifacts",
+    "PUBLIC": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/public",
+    "NODE_MODULES": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/node_modules",
+    "EXCLUDE_MODULES": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/node_modules",
+    "PACKAGE": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/package.json",
+    "HTML_TEMPLATE": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/dist/index.html",
+    "STATIC_DATA": "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app/dist/staticData"
+  },
+  "plugins": [
+    "/Users/sherifbutt/Library/Mobile Documents/com~apple~CloudDocs/WORK/learning code/js/react/react-static-app"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
