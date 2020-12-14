@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './app.css'
+import GlobalStyle from './components/GlobalStyle'
 
 // Import Pages
 import AboutUs from './pages/AboutUs.js'
@@ -11,10 +11,12 @@ class App extends Component {
     
     return (
       <div className="App">
-        <h1>hi there</h1>
-        <AboutUs />
-        
+        <GlobalStyle/>
+          
+          <AboutUs />
       </div>
+        
+      
     )
   }
 }
